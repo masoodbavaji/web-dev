@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="text"
+      id="first name"
+      name="fname"
+      placeholder="Enter your first name"
+    >
+      firstname:
+<p>
+      <input
+        type="text"
+        id="first name"
+        placeholder="Enter your first name"
+        required
+      /></p>    
+      secondname:
+      <p>
+      <input
+        type="text "
+        id="second name"
+        placeholder="Enter your second name"
+      /></p>
+      please enter ur number
+      <div>
+<input type="number" placeholder="enter ur number "> </div>
+      
+
+      <input type="button" value="submit" />
+    </form>
+  </body>
+</html>
