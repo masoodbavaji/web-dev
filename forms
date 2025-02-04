@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input tags</title>
+</head>
+
+<body>
+    <form action="text" id="first name" name="fname" placeholder="Enter your first name">firstname:
+        <br>
+        <input type="text" id="first name" placeholder="Enter your first name" required><br>
+        secondname: <br>
+        <input type="text " id="second name" placeholder="Enter your second name">
+        <br>
+        <br>
+
+        <select name="gender" id="wo">
+            <option value="male" name="gender" id="wo">male</option>
+            <option value="female" name="gender" id="wo">female</option>
+        </select>
+        <br><br>
+
+        <input type="radio" id="india" name="country" value="india"><label for="india">india</label>
+
+        <input type="radio" id="other country" name="country" value="other country"><label for="other country">other
+            country</label>
+
+
+
+
+        <br>
+        <br>
+        <input type="button" value="submit">
+
+
+    </form>
+
+</body>
+
+</html>
