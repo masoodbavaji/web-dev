@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* Child Selector (>) - Selects only <p> elements that are direct children of <div> */
+        div > p {
+            color: red; /* Makes the text color red */
+        }
+
+        /* Descendant Selector (Whitespace) - Selects all <p> elements inside <div>, no matter how deeply nested */
+        div p {
+            background-color: aqua; /* Adds a light blue background */
+        }
+
+        /* Pseudo-Class Selector (:visited) - Styles links that have already been visited */
+        a:visited {
+            color: rgb(6, 243, 112); /* Changes text color after the link has been clicked */
+        }
+
+        /* Pseudo-Class Selector (:hover) - Styles links when hovered over */
+        a:hover {
+            background-color: rgb(12, 0, 0); /* Changes background color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>Styled (Direct Child)</p> <!-- ✅ This <p> is a direct child of <div>, so it turns red -->
+        <span>
+            <p>Not Styled (Nested)</p> <!-- ❌ This <p> is inside a <span>, so it does NOT get red text but gets the aqua background -->
+        </span>
+    </div>
+    
+    <!-- A hyperlink to Google -->
+    <a href="https://www.google.com">google</a> <!-- This link changes color after being visited and changes background on hover -->
+
+</body>
+</html>
