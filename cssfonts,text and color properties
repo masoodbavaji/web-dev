@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Triodion&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css fonts,text and color properties</title>
+    
+<style>
+    
+    p{
+        font-family: "Triodion", serif;
+        font-style: italic;
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 20px;
+        text-indent: 300px;
+        text-overflow: clip;
+        overflow: hidden;
+        font-size: 50px;
+        line-height: 155px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-decoration-color:red ;
+        word-break: break-all;
+        text-align: center;
+    }
+    span{
+        color: rgb(24, 112, 236);
+    }
+
+</style>
+</head>
+<body>
+    <p>
+        hi this is masood  
+        <br>
+        and i m the superlegend on this earth got it baby
+
+
+    </p>
+    <span>helooooo jiiiiiiii whatsapp
+
+    </span>
+    
+</body>
+</html>
