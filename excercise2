@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>excercise2</title>
+    <style>
+     div>p:first-child{
+        color: red;
+        background-color: yellow
+     }
+     div>p{
+        color: white;
+        background-color: blue;
+     }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt atque velit quaerat! Recusandae consequatur tempore corporis. Totam quisquam beatae dignissimos quia, harum saepe dicta, sint in perspiciatis ad, consequatur illum!
+
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus numquam nostrum accusamus dolore ad facere deserunt perferendis illum eos! Quo!
+
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum labore reiciendis, a eveniet dolores aperiam excepturi in explicabo vel neque! Quibusdam deserunt saepe consequuntur magni quam alias deleniti repudiandae quo?
+
+        </p>
+    </div>
+    
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum!
+
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nostrum facere quos eligendi voluptatum quibusdam velit voluptatibus perferendis quia ducimus!
+
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, corrupti natus! Dolores inventore animi nulla culpa corrupti voluptate magnam quia dolor eos voluptatum libero nostrum sequi recusandae, dolorum, iusto laboriosam.
+
+        </p>
+    </div>
+    
+    
+</body>
+</html>
