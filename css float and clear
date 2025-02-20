@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Float Clear</title>
+    <style>
+        img{
+            float: right;
+
+        }
+        #class{
+            clear: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="classes">
+        <class>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ex non voluptatibus, deserunt doloribus necessitatibus nesciunt repellat quas sit nisi.</class>
+        <class>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate iusto nisi minima debitis officiis maxime quae aspernatur! Accusantium quaerat tempore, facere sunt sapiente magnam excepturi consequuntur nulla obcaecati deserunt commodi, saepe nihil inventore, aliquid natus laboriosam maxime! Sint, ullam?</class>
+        <class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem vel eveniet, saepe, deserunt nisi iusto culpa iste placeat rem, necessitatibus tempore ab ipsum explicabo? Qui veritatis voluptatem expedita, nesciunt sint eum illum fugit debitis voluptates rerum quas maxime minima. Quia eius facilis ullam nesciunt aperiam quasi quo. Consectetur praesentium eligendi amet dolorum laudantium reprehenderit culpa itaque qui, minus quae.</class>
+        <div class="image"><img src="card.png" alt=""></div>
+    </div>
+</body>
+</html>
